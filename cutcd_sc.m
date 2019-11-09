@@ -1,4 +1,4 @@
-function[U] = cutcd_sc(X,J,U,Y,UM,maxiters,la)
+function[U,UM] = cutcd_sc(X,J,U,Y,UM,maxiters,la)
 %%N-CMTF. Nonnegative Coupled Matrix Tensor Factorization with sparsity constraint using Cut-off Coordinate Descent (Cut-CD-SC) algorithm
 % This implementation can be used for only 3-order tensor with mode 1
 % shared between the tensor and matrix.
