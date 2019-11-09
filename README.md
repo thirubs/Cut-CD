@@ -5,4 +5,4 @@ Cut-off Coordinate Descent (Cut-CD) Algorithm for Nonnegative Coupled Matrix Ten
 Demo file will generate synthetic tensor and matrix datasets and factorizes the tensor using Cut-CD and Cut-CD-SC algorithms.
 
 
-Note: You have to download the Tensor Toolbox for MATLAB for the CCD++ algorithm to run.
+Note: You have to download the Tensor Toolbox for MATLAB for the Cut-CD algorithm to run.
