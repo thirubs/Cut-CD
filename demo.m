@@ -23,5 +23,9 @@ for n = 1:N
     end
 end
 UM = arrange(ktensor(UinitM));
-[UVW_CutCD] = cutcd(X,J,U,useruser,UM,maxiter);
 
+% Cut-CD
+[UU,UVW] = cutcd(X,J,U,useruser,UM,maxiter);
+
+% Cut-CD-SC
+[UU,UVW] = cutcd_sc(X,J,U,useruser,UM,maxiter);
