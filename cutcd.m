@@ -1,4 +1,4 @@
-function [U] = cutcd(X,J,U,Y,UM,maxiters)
+function [U,UM] = cutcd(X,J,U,Y,UM,maxiters)
 %%N-CMTF. Nonnegative Coupled Matrix Tensor Factorization using Cut-off Coordinate Descent (Cut-CD) algorithm
 % This implementation can be used for only 3-order tensor with mode 1
 % shared between the tensor and matrix.
